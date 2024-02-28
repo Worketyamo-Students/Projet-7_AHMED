@@ -2,6 +2,10 @@
     margin-left: -100%;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 @media only screen and (max-width: 1024px) {
     .mobile-menu {
         margin-left: 0;
