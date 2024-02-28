@@ -1,3 +1,9 @@
-header {
-    background: url(../img/background-header.svg);
+.nav_links {
+    margin-left: -100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mobile-menu {
+        margin-left: 0;
+    }
 }
